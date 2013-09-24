@@ -29,7 +29,6 @@ object Main {
       else if (remChars.head == ')') balanceHelp(nest - 1, remChars.tail)
       else balanceHelp(nest, remChars.tail)
     }
-    
     balanceHelp(0, chars)
   }
   
